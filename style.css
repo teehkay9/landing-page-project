@@ -18,13 +18,13 @@ body {
 }
 
 .quote-block {
-  background-color: #a9acb1;
+  background-color: #e5e7eb;
 }
 
 .header {
   display: flex;
   flex-direction: column;
-  padding: 12px 128px;
+  padding: 12px 128px 128px 128px;
 }
 
 .header-top {
@@ -83,5 +83,44 @@ button {
 .placeholder {
   background-color: #a9acb1;
   flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.random-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-info-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.random-info > div {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.empty-image {
+  width: 200px;
+  height: 200px;
+  border: 2px solid blue;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.info {
+  max-width: 200px;
+}
+
+.text {
   text-align: center;
 }
