@@ -1,10 +1,10 @@
 body {
   margin: 0;
+  padding: 0;
 }
 
 .section {
   min-height: 100px;
-  width: 100%;
 }
 
 .header,
@@ -101,6 +101,7 @@ button {
   justify-content: center;
   align-items: center;
   gap: 50px;
+  padding-bottom: 128px;
 }
 
 .random-info > div {
@@ -123,4 +124,26 @@ button {
 
 .text {
   text-align: center;
+}
+
+.quote-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 100px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  max-width: 750px;
+  justify-content: center;
+}
+
+.quote-quote {
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
 }
